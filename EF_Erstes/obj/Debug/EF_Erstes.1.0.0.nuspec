@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EF_Erstes</id>
+    <version>1.0.0</version>
+    <authors>EF_Erstes</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="e885865242ce40f34ee0d008813ebc13bd9c6693" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="9.0.10" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\FIA\source\repos\EF_Erstes\EF_Erstes\bin\Debug\net8.0\EF_Erstes.runtimeconfig.json" target="lib\net8.0\EF_Erstes.runtimeconfig.json" />
+    <file src="C:\Users\FIA\source\repos\EF_Erstes\EF_Erstes\bin\Debug\net8.0\EF_Erstes.dll" target="lib\net8.0\EF_Erstes.dll" />
+  </files>
+</package>

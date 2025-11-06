@@ -9,12 +9,14 @@ namespace EF_Erstes
         {
             DbContext context = new TicketsystemContext();
 
+            // Use Include to eagerly load the Ticket navigation property
             List<Ersteller> erstellerListe = context.Set<Ersteller>()
                 .Include(e => e.Ticket)
                 .ToList();
 
             foreach (var ersteller in erstellerListe)
             {
+                // Get the first ticket (no need to filter by ErstellerId - we're already in that collection)
                 var erstesTicket = ersteller.Ticket.FirstOrDefault();
                 var ticketTitel = erstesTicket?.Titel ?? "Kein Ticket";
                 
