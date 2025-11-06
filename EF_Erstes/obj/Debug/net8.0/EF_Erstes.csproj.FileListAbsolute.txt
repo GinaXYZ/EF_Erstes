@@ -150,3 +150,4 @@ C:\Users\FIA\source\repos\EF_Erstes\EF_Erstes\obj\Debug\net8.0\refint\EF_Erstes.
 C:\Users\FIA\source\repos\EF_Erstes\EF_Erstes\obj\Debug\net8.0\EF_Erstes.pdb
 C:\Users\FIA\source\repos\EF_Erstes\EF_Erstes\obj\Debug\net8.0\EF_Erstes.genruntimeconfig.cache
 C:\Users\FIA\source\repos\EF_Erstes\EF_Erstes\obj\Debug\net8.0\ref\EF_Erstes.dll
+C:\Users\FIA\source\repos\EF_Erstes\Ef_ERSTES\obj\Debug\net8.0\EF_Erstes.sourcelink.json

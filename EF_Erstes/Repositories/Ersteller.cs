@@ -17,5 +17,5 @@ public partial class Ersteller
 
     public bool Aktiv { get; set; }
 
-    public virtual ICollection<Ticket> Tickets { get; set; } = new List<Ticket>();
+    public virtual ICollection<Ticket> Ticket { get; set; } = new List<Ticket>();
 }
